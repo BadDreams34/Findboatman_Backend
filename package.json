@@ -4,8 +4,7 @@
   "main": "app.js",
 "scripts": {
   "postinstall": "npx prisma generate",
-  "dev": "nodemon index.js",
-  "start": "node index.js",
+  "start": "npx prisma db push",
   "push": "npx prisma db push"
 }
 ,
